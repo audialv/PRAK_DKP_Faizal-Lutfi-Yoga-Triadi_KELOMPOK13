@@ -104,7 +104,7 @@ int main()
         pembayaran(beli);
         ch = 0;
         cout << "BELI PAKET LAGI ? \t\t>> TEKAN 1\n";
-        cout << "KELUAR ? \t\t\t>> TEKAN 2\n >>"
+        cout << "KELUAR ? \t\t\t>> TEKAN 2\n >>";
         cin >> ch;
     }     while (ch != 2);
     return 0;
