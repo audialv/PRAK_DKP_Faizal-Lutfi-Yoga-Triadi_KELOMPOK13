@@ -20,7 +20,7 @@ void pembayaran(int beli);
 void awal() {
     cout << "===============================================\n"
         << "=========SELAMAT DATANG DI WARNET ABCD=========\n"
-        << "===============================================\n"
+        << "===============================================\n";
 }
 
 
@@ -47,7 +47,7 @@ int main()
         cout << "||PAKET Malam dari jam 22.00 - 07.00(Rp.30000)  (5)||" << endl;
         cout << "||=================================================||" << endl;
         cout << "" << endl;
-        cout << "MASUKKAN ANGKA PADA PAKET YANG DIPILIH : "; cin << paket;
+        cout << "MASUKKAN ANGKA PADA PAKET YANG DIPILIH : "; cin >> paket;
 
         beli = 0;
 
