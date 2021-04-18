@@ -118,13 +118,13 @@ void pembayaran(int beli)
     cout << "Pembayaran TUNAI \t\t: Rp. "; cin >> masuk;
     cout << "" << endl;
 
-    if (masuk < beli)
+    while (masuk < beli)
     {
         cout << "LAH UANGNYA GA CUKUP BRO PINJEM TEMEN DULU BURUAN" << endl;
         cout << "Bayar ulang \t\t\t: Rp. "; cin >> masuk;
         cout << "" << endl;
     }
-    else if (masuk == beli)
+    if (masuk == beli)
     {
         cout << "DUITNYA PAS BRO, MANTAB" << endl;
         cout << "" << endl;
